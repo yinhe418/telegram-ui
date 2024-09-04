@@ -4,9 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/go-telegram/bot"
-	"github.com/go-telegram/bot/models"
-	"github.com/go-telegram/ui/datepicker"
+	"github.com/yinhe418/telegram-bot/models"
+	"github.com/yinhe418/telegram-ui/datepicker"
 )
 
 var demoDatePickerSimple *datepicker.DatePicker

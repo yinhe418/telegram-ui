@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-telegram/bot/models"
+	"github.com/yinhe418/telegram-bot/models"
 )
 
 func (datePicker *DatePicker) buildYearKeyboard(currentYear int) [][]models.InlineKeyboardButton {

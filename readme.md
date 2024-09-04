@@ -4,7 +4,7 @@
 
 > [Telegram Group](https://t.me/gotelegrambotui)
 
-UI controls for telegram bot [go-telegram/bot](https://github.com/go-telegram/bot)
+UI controls for telegram bot [go-telegram/bot](https://github.com/yinhe418/telegram-bot)
 
 - datepicker
 - inline keyboard
@@ -20,8 +20,8 @@ Feel to free to contribute and issues!
 ## Getting Started
 
 ```bash
-go get github.com/go-telegram/bot
-go get github.com/go-telegram/ui
+go get github.com/yinhe418/telegram-bot
+go get github.com/yinhe418/telegram-ui
 ```
 
 **Important**

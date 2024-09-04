@@ -3,7 +3,7 @@ package slider
 import (
 	"strconv"
 
-	"github.com/go-telegram/bot/models"
+	"github.com/yinhe418/telegram-bot/models"
 )
 
 func (s *Slider) buildKeyboard() models.InlineKeyboardMarkup {

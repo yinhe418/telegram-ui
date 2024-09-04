@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/go-telegram/bot"
-	"github.com/go-telegram/bot/models"
+	"github.com/yinhe418/telegram-bot"
+	"github.com/yinhe418/telegram-bot/models"
 )
 
 type OnSelect func(ctx context.Context, bot *bot.Bot, mes models.MaybeInaccessibleMessage, data []byte)

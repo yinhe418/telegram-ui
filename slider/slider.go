@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/go-telegram/bot"
-	"github.com/go-telegram/bot/models"
+	"github.com/yinhe418/telegram-bot"
+	"github.com/yinhe418/telegram-bot/models"
 )
 
 type OnSelectFunc func(ctx context.Context, b *bot.Bot, message models.MaybeInaccessibleMessage, item int)

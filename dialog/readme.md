@@ -20,9 +20,9 @@ import (
 	"os/signal"
 	"strconv"
 
-	"github.com/go-telegram/bot"
-	"github.com/go-telegram/bot/models"
-	"github.com/go-telegram/ui/dialog"
+	"github.com/yinhe418/telegram-bot"
+	"github.com/yinhe418/telegram-bot/models"
+	"github.com/yinhe418/telegram-ui/dialog"
 )
 
 func main() {
@@ -42,7 +42,7 @@ func main() {
 
 var (
 	dialogNodes = []dialog.Node{
-		{ID: "start", Text: "Start Node", Keyboard: [][]dialog.Button{{{Text: "Go to node 2", NodeID: "2"}, {Text: "Go to node 3", NodeID: "3"}}, {{Text: "Go Telegram UI", URL: "https://github.com/go-telegram/ui"}}}},
+		{ID: "start", Text: "Start Node", Keyboard: [][]dialog.Button{{{Text: "Go to node 2", NodeID: "2"}, {Text: "Go to node 3", NodeID: "3"}}, {{Text: "Go Telegram UI", URL: "https://github.com/yinhe418/telegram-ui"}}}},
 		{ID: "2", Text: "node 2 without keyboard"},
 		{ID: "3", Text: "node 3", Keyboard: [][]dialog.Button{{{Text: "Go to start", NodeID: "start"}, {Text: "Go to node 4", NodeID: "4"}}}},
 		{ID: "4", Text: "node 4", Keyboard: [][]dialog.Button{{{Text: "Back to 3", NodeID: "3"}}}},
