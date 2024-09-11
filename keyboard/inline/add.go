@@ -27,6 +27,16 @@ func (kb *Keyboard) Button(text string, data []byte, handler OnSelect) *Keyboard
 	return kb
 }
 
+func (kb *Keyboard) ButtonString(text string, data string) *Keyboard {
+
+	kb.markup[len(kb.markup)-1] = append(kb.markup[len(kb.markup)-1], models.InlineKeyboardButton{
+		Text:         text,
+		CallbackData: data,
+	})
+
+	return kb
+}
+
 func (kb *Keyboard) URL(text string, url string) *Keyboard {
 	kb.markup[len(kb.markup)-1] = append(kb.markup[len(kb.markup)-1], models.InlineKeyboardButton{
 		Text: text,
